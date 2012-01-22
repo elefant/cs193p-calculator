@@ -10,7 +10,7 @@
 
 @interface CalculatorViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *display;
-- (IBAction)onPressed:(id)sender;
+- (IBAction)onDigitPressed:(id)sender;
 - (IBAction)onOperatorPressed:(UIButton*)sender;
 
 @end

@@ -30,7 +30,7 @@
     return mBrain;
 }
 
-- (IBAction)onPressed:(UIButton*)sender 
+- (IBAction)onDigitPressed:(UIButton*)sender 
 {
     NSLog( @"%@", sender.currentTitle );
     
