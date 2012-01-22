@@ -15,4 +15,6 @@
 - (BOOL)pushOperator:(NSString*) aOperator
      operationResult:(double*) aResult;
 
+- (void)clear;
+
 @end

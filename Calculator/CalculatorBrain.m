@@ -248,5 +248,10 @@ enum
     return precedence;
 }
 
+- (void)clear
+{
+    [self.operandStack removeAllObjects];
+    [self.operatorStack removeAllObjects];
+}
 
 @end

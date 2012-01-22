@@ -67,6 +67,13 @@
     self.isEnteringDigit = NO;
 }
 
+- (IBAction)onClearPressed:(UIButton*)sender 
+{
+    self.display.text = @"0";
+    self.isEnteringDigit = NO;
+    [self.brain clear];
+}
+
 
 
 @end
